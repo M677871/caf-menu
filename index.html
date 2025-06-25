@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAF - Cafe & Bakery</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Playfair Display and Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Cafe Photo (Background Image) -->
+    <header id="home">
+        <div class="logo">CAF</div>
+        <div class="hero-content">
+            <h1>CAF Coffee & Bakery</h1>
+            <p>Experience the art of coffee and freshly baked goods in a cozy atmosphere</p>
+            <div>
+                <a href="#menu" class="btn">View Menu</a>
+                <a href="#contact" class="btn btn-outline">Visit Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">CAF</div>
+            <button class="mobile-menu-btn" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- Prominent menu categories as requested -->
+                <li><a href="#soft-drinks">Soft Drinks</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+                <li><a href="#kaak">Kaak</a></li>
+                <li><a href="#hot-drinks">Hot Drinks</a></li>
+                <li><a href="#cold-drinks">Cold Drinks</a></li>
+                <li><a href="#shakes">Shakes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Delicious Menu</h2>
+                <p>Discover our exquisite selection of specialty coffees, refreshing teas, and freshly baked goods, crafted with passion and the finest ingredients.</p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Soft Drinks -->
+                <div class="menu-card" id="soft-drinks">
+                    <i class="fas fa-glass-whiskey menu-category-icon"></i>
+                    <h3>Soft Drinks</h3>
+                    <ul>
+                        <li class="menu-item"><span>Sparkling Water</span><span>$2.00</span></li>
+                        <li class="menu-item"><span>Small Water</span><span>$0.50</span></li>
+                        <li class="menu-item"><span>Beer</span><span>$2.50</span></li>
+                        <li class="menu-item"><span>Light Beer</span><span>$2.50</span></li>
+                    </ul>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-card" id="desserts">
+                    <i class="fas fa-ice-cream menu-category-icon"></i>
+                    <h3>Desserts</h3>
+                    <ul>
+                        <li class="menu-item"><span>Biscuit au Chocolat</span><span>$2.00</span></li>
+                        <li class="menu-item"><span>Tiramisu</span><span>$4.00</span></li>
+                        <li class="menu-item"><span>Custard</span><span>$3.00</span></li>
+                    </ul>
+                </div>
+
+                <!-- Kaak -->
+                <div class="menu-card" id="kaak">
+                    <i class="fas fa-bread-slice menu-category-icon"></i>
+                    <h3>Kaak</h3>
+                    <ul>
+                        <li class="menu-item"><span>Kaak Cheese</span><span>$2.50</span></li>
+                        <li class="menu-item"><span>Kaak Cheese + Ham</span><span>$3.50</span></li>
+                        <li class="menu-item"><span>Kaak Cheese+Ham+Salami</span><span>$5.00</span></li>
+                    </ul>
+                </div>
+
+                <!-- Hot Drinks -->
+                <div class="menu-card" id="hot-drinks">
+                    <i class="fas fa-coffee menu-category-icon"></i>
+                    <h3>Hot Drinks</h3>
+                    <ul>
+                        <li class="menu-item"><span>Americano</span><span>$3.00</span></li>
+                        <li class="menu-item"><span>Cappuccino</span><span>$3.00</span></li>
+                        <li class="menu-item"><span>Espresso</span><span>$2.00</span></li>
+                        <li class="menu-item"><span>Latte</span><span>$4.00</span></li>
+                        <li class="menu-item"><span>Nescafe</span><span>$2.00</span></li>
+                        <li class="menu-item"><span>Matcha</span><span>$4.25</span></li>
+                        <li class="menu-item"><span>Tea</span><span>$2.00</span></li>
+                        <li class="menu-item"><span>Hot Chocolate</span><span>$4.00</span></li>
+                    </ul>
+                </div>
+
+                <!-- Cold Drinks -->
+                <div class="menu-card" id="cold-drinks">
+                    <i class="fas fa-glass-martini-alt menu-category-icon"></i>
+                    <h3>Cold Drinks</h3>
+                    <ul>
+                        <li class="menu-item"><span>Iced Coffee</span><span>$3.00</span></li>
+                        <li class="menu-item"><span>Iced Latte</span><span>$4.00</span></li>
+                        <li class="menu-item"><span>Iced Tea Peach</span><span>$4.00</span></li>
+                        <li class="menu-item"><span>Spanish Latte</span><span>$4.00</span></li>
+                        <li class="menu-item"><span>Matcha</span><span>$4.00</span></li>
+                    </ul>
+                </div>
+
+                <!-- Shakes -->
+                <div class="menu-card" id="shakes">
+                    <i class="fas fa-blender menu-category-icon"></i>
+                    <h3>Shakes</h3>
+                    <ul>
+                        <li class="menu-item"><span>Strawberry</span><span>$4.00</span></li>
+                        <li class="menu-item"><span>Oreo</span><span>$4.00</span></li>
+                        <li class="menu-item"><span>Mars</span><span>$4.00</span></li>
+                        <li class="menu-item"><span>Nutella</span><span>$4.00</span></li>
+                        <li class="menu-item"><span>Snickers</span><span>$4.00</span></li>
+                        <li class="menu-item"><span>Lotus</span><span>$4.00</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>About CAF</h2>
+                <p>Founded in 2010, CAF has been serving premium coffee and freshly baked goods to our community for over a decade. Our mission is to create a welcoming space where people can gather, work, and enjoy exceptional quality beverages and food.</p>
+                <p>We source our coffee beans from sustainable farms and roast them in-house to bring out their unique flavors. All our pastries and desserts are baked fresh daily using traditional recipes with a modern twist.</p>
+                <a href="#contact" class="btn btn-outline">Visit Our Store</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>CAF Cafe</h3>
+                    <p>Experience the perfect blend of tradition and innovation in every cup and bite.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Friday: 7am - 9pm</p>
+                    <p>Saturday - Sunday: 8am - 10pm</p>
+                    <p>Holidays: 9am - 6pm</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Coffee Street, City, Country</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@cafcafe.com</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                &copy; <span id="current-year"></span> CAF Cafe. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle functionality
+        const menuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            // Toggle icon between bars and times (X)
+            const icon = menuBtn.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Close mobile menu when a link is clicked
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    menuBtn.querySelector('i').classList.remove('fa-times');
+                    menuBtn.querySelector('i').classList.add('fa-bars');
+                }
+            });
+        });
+
+        // Update current year in footer dynamically
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Smooth scrolling for all anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                if (targetElement) {
+                    // Calculate offset for sticky header
+                    const offset = document.querySelector('nav').offsetHeight;
+                    const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                    const offsetPosition = elementPosition - offset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
